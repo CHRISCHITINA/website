@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>studio architecture</title>
+    <link rel="icon" href="images/logos/logo.ico">
+    <link rel="stylesheet" href="../css/style.css">
+    <!--[if lt IE 9]>
+            <script src="scripts/html5shiv.min.js"></script>
+        <![endif]-->
+
+</head>
+
+<body>
+  <section class="cover-main" id="home">
+    <header>
+      <nav class="nav-wrapper">
+        <div class="logo">
+          <a href="index.html"><img src="images/logos/logo3.png" alt="" class="logo"></a>
+        </div>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="clients.html">Clients</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+      <div class="wrapper">
+        <ul id="scene"
+          data-invert-x="false"
+          data-invert-y="false"
+          data-scalar-x="7"
+          data-scalar-y="7"
+          data-friction-x="0.1"
+          data-friction-y="0.1"
+          data-origin-x="0.5"
+          data-origin-y="0.5">
+          <li class="layer name" data-depth="0.90">MOVEMENT INSPIRED BY TECHNOLOGY</li>
+          <li class="layer title" data-depth="0.30">A Globally Competitive And Socially Responsible Enterprise</li>
+          <li class="layer btn btn-main">
+          </li>
+        </ul>
+      </div>
+
+  </section>
+
+
+                                 <!--WHAT WE DO-->
+
+
+    <div class="skills">
+      <h1>What we do</h1>
+
+      <div class="skill-row">
+        <img class="smartphone-img" src="images/icons/smartphone.png" alt="">
+        <h2>Software Solutions and Applications Development</h2>
+        <p>One of the areas of greatest demand in today’s business world is providing software solutions. This can involve creating completely new systems or modifying existing ones, working as part of the team responsible for analysis and design, construction, testing, and maintenance. At MIBT, we provide Solutions to the many challenges that arise from the rapid growth of business and related demands. We have experts that will listen to your challenges and in consultation with you, build a truly efficient and scalable solution </p>
+      </div>
+
+      <div class="skill-row">
+        <img class="user-img" src="images/icons/user-16.png" alt="">
+        <h2>Business Process Outsourcing</h2>
+        <p>we provide so much more than just Business Process Outsourcing. We are your partners in growth. We take the heavy burden of your tasks to allow you to focus on your core competencies and true innovation. As our website illustrates, we have an innate ability to help you reach your growth potential. Through brilliant people, innovative technology and operational excellence</p>
+      </div>
+
+      <div class="skill-row">
+        <img class="presentation-img" src="images/icons/presentation.png" alt="">
+        <h2>Corporate IT Training</h2>
+        <p>Our corporate training solutions turn ambitions and business goals into results—with learning methods for virtually every schedule and style, plus vendor-authorized learning tools and expert instruction. We’re training Africa to make the most of technology, and business systems. Our training methods vary from instructor led, mentored learning, Online Live, e-Learning, to Onsite training</p>
+      </div>
+
+      <div class="skill-row">
+        <img class="transfer-img" src="images/icons/transfer.png" alt="">
+        <h2>ICT for Development ICT 4D</h2>
+        <p>At MIBT, we are passionate about the socio-economic emancipation of marginalized groups and communities across Africa. We believe Africa’s Sustainable Development depends on innovation. From Agriculture, Health, Education to Climate Change Management,
+Africa’s story can be rewritten through the use of ICT
+       </p>
+      </div>
+
+    </div>
+
+
+
+                             <!--WHAT WE DO-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="scripts/parallax.min.js"></script>
+    <script src="scripts/slick.min.js"></script>
+    <script src="scripts/main.js"></script>
+
+    <script>
+
+      var scene = document.getElementById('scene');
+      var parallax = new Parallax(scene);
+
+    </script>
+
+</body>
+
+</html>
